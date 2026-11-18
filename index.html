@@ -3,10 +3,80 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hello,Word!!</title>
+	<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #050510;
+    }
+
+	.aurora-text {
+		color: #666666;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+    .aurora-text:hover {
+        font-size: 76px;
+        font-weight: 800;
+        font-family: 'Futura', 'Century Gothic', sans-serif;
+        position: relative;
+
+        background: linear-gradient(
+            270deg,
+            #00f0ff,
+            #7042fc,
+            #ff006e,
+            #ffbd59,
+            #00f0ff,
+            #7042fc,
+            #ff006e,
+            #ffbd59
+        );
+        background-size: 500% 100%;
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+        animation: auroraWave 10s linear infinite;
+        filter: brightness(1.2) contrast(1.1);
+    }
+
+    /* 第二层发光叠加 */
+    .aurora-text:hover::after {
+        content: "AURORA";
+        position: absolute;
+        top: 0; left: 0;
+        z-index: -1;
+        background: linear-gradient(
+            270deg,
+            rgba(0,240,255,0.3),
+            rgba(112,66,252,0.3),
+            rgba(255,0,110,0.3),
+            rgba(255,189,89,0.3)
+        );
+        background-size: 500% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: auroraWave 14s linear infinite reverse;
+        filter: blur(12px);
+        opacity: 0.7;
+    }
+
+    @keyframes auroraWave {
+        0%   { background-position: 0% 50%; }
+        100% { background-position: 500% 50%; }
+    }
+</style>
 </head>
 <body>
 	<div style="text-align: center;margin: 10% auto 0;font-size: 30px;">
-		<a href="/blog">Hello,Word~!</a>
+		<a class=“aurora-text” href="/blog">Hello,Word~!</a>
 	</div>
 </body>
 </html>
