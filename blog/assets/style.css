@@ -261,6 +261,7 @@ img { max-width: 100%; }
   .post-detail { padding: 28px 20px 36px; }
   .post-detail h1 { font-size: 26px; }
   .site-header__inner { padding: 28px 20px 24px; }
-  .site-main:has(.site-aside) { padding-right: 24px; }
+  .site-main:has(.site-aside .site-menu--sidebar),
+  .site-main:has(.site-aside .side-block) { padding-right: 24px; }
   .site-aside { position: static; width: auto; margin-top: 28px; }
 }
