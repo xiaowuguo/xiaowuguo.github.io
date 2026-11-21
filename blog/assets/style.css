@@ -222,6 +222,9 @@ img { max-width: 100%; }
   margin-bottom: 10px;
 }
 .post-meta__dot::before { content: "·"; margin-right: 16px; color: #b7bec5; }
+.post-meta__tag { display: inline-block; padding: 2px 9px; border-radius: 12px; background: #eef1f3; color: #5c6875; font-size: 12px; line-height: 1.6; }
+.post-meta__draft { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; padding: 3px 10px; border-radius: 12px; background: #fff2e8; color: #d4380d; font-size: 12px; line-height: 1.6; white-space: nowrap; }
+.post-meta__draft-icon { flex: none; }
 .post-summary { margin: 0; color: #4b5764; font-size: 15px; }
 .read-more {
   display: inline-block;
