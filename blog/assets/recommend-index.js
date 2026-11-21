@@ -1,1 +1,1 @@
-window.__RECOMMEND_INDEX__ = [{"i":"U7IhjrtHhOCS","g":["测试","内容"],"c":null,"d":"2026-11-17","u":"posts/uncategorized/article-iF2oNzbaLW.html","t":"测试内容"}];
+window.__RECOMMEND_INDEX__ = [{"i":"8artjTsDXFsj","g":["测试","文章"],"c":null,"d":"2026-11-18","u":"posts/uncategorized/article-9a2keTfAmd.html","t":"测试内容1"},{"i":"U7IhjrtHhOCS","g":["测试","内容"],"c":null,"d":"2026-11-17","u":"posts/uncategorized/article-iF2oNzbaLW.html","t":"测试内容"}];
