@@ -1,0 +1,1 @@
+window.__RECOMMEND_INDEX__ = [{"i":"U7IhjrtHhOCS","g":["测试","内容"],"c":null,"d":"2026-11-17","u":"posts/uncategorized/article-iF2oNzbaLW.html","t":"测试内容"}];
